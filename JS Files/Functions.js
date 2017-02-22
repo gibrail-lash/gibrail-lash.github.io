@@ -29,13 +29,16 @@ function smoothScroll(duration){
 
 function aboutBelt(){
     $('.about2Return').click(function(){
-        $('.aboutBelt').css('right', '0%');
-        $('.aboutContainer').hide();	
+        $('.aboutBelt').css('right', '100%');
+        $('.about2Container').show();
+	$('.about2Return').hide();
+	    
     }); 
 	
     $('.aboutReturn').click(function(){
         $('.aboutBelt').css('right', '0%');
-        $('.aboutContainer').show();
+        $('.about2Container').hide();
+	$('.about2Return').show();
     });
 }
 
