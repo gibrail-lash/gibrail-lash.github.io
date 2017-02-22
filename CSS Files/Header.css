@@ -8,7 +8,7 @@ body {
 
 header {
     height: 450px;
-    background-image: url("Webpage Imgs/28H.jpg");
+    background-image: url("../Webpage Imgs/28H.jpg");
     background-size: cover;
     font-family: sans-serif /* subject to change */
 }
