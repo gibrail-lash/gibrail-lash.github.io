@@ -45,7 +45,7 @@ function aboutBelt(){
 function skillsBelt(){
     $('.certificationsReturn').click(function(){
         $('.skillsBelt').css('right', '100%');
-        $('.certificationssContainer').show();
+        $('.certificationsContainer').show();
 	$('.certificationsReturn').hide();
 
     }); 
