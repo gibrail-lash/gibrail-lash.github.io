@@ -1,0 +1,77 @@
+$(document).ready(function(){
+});
+
+
+$(function(){
+    smoothScroll();
+    aboutBelt();
+	skillsBelt();
+    workBelt();
+});
+
+
+
+function smoothScroll(duration){
+    $('a[href^="#"]').on('click',function(event){
+        var target=$($(this).attr('href'));
+        
+        if(target.length){
+            event.preventDefault();
+            $('html,body').animate({
+                scrollTop: target.offset().top
+            }, duration);
+        }
+    });
+}
+
+
+/* ABOUT SECTION */
+
+function aboutBelt(){
+    $('.about2Return').click(function(){
+        $('.aboutBelt').css('right', '0%');
+        $('.aboutContainer').hide();	
+    }); 
+	
+    $('.aboutReturn').click(function(){
+        $('.aboutBelt').css('right', '0%');
+        $('.aboutContainer').show();
+    });
+}
+
+
+/* SKILLS SECTION */
+
+function skillsBelt(){
+    $('.certificationsReturn').click(function(){
+        $('.skillsBelt').css('right', '0%');
+        $('.skillsContainer').hide();
+		$('.certificationsReturn').hide();
+
+    }); 
+    $('.skillsReturn').click(function(){
+        $('.skillsBelt').css('right', '0%');
+        $('.skillsContainer').show();
+		$('.certificationsReturn').show();
+    });
+}
+
+
+
+/* PROCESS SECTION */
+
+
+/* PROJECTS SECTION */
+
+function workBelt(){
+    $('.thumbUnit').click(function(event){
+		event.preventDefault();
+        $('.workBelt').css('right', '100%');
+        $('.workContainer').show(800);
+    }); 
+        $('.thumbReturn').click(function(event){
+			event.preventDefault();
+            $('.workBelt').css('right', '0%');
+            $('.workContainer').hide(800);
+    });   
+}
