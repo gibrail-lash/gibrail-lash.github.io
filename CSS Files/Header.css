@@ -1,0 +1,59 @@
+html {
+    font-family: arial;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    height: 450px;
+    background-image: url("Webpage Imgs/28H.jpg");
+    background-size: cover;
+    font-family: sans-serif /* subject to change */
+}
+
+#hnav {
+    float: right;
+    margin: 30px;
+    text-align: center
+}
+
+.navText {
+    display: inline-block;
+    margin-left: 20px;
+    color: #763626;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+	font-size: 15px;
+
+}
+
+.navText:hover {
+    color: #2a3132;
+}
+
+h1 {
+    text-align: center;
+    font-size: 72px;
+    font-weight: 700;
+    color: #763626;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    letter-spacing: 0.05em;
+    clear: both;
+    padding-top: 30px;
+
+}
+
+span {
+    display: inline-block;
+    padding: 0.2em 0.5em;
+    border: #763626 solid 10px; 
+}
+
+h2 {
+    text-align: center;
+    color: #2a3132;
+}

@@ -1,0 +1,73 @@
+.process {
+    height: auto;
+    background: white;
+    overflow-x: hidden;
+    padding-bottom: 60px;
+}
+
+#iconContainer {
+    overflow: hidden;
+	padding-bottom: 60px; /* FIX THIS */
+    max-width:1200px;
+    margin:auto;
+}
+
+.processHead {
+    text-align: center;
+    text-transform: uppercase;
+    color: #763626;
+    font-size: 20px;
+    //font-weight: 900;
+    padding-top: 60px;
+    position: relative;
+}
+
+.processUnderline {
+    height: 2px;
+    width: 400px;
+    background-color: #763626;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative
+}
+
+#processIcon {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin: auto 0;
+    position: relative;
+	padding-left: 
+}
+
+#processName {
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+#processVerticalLine {
+    height: 140px;
+    width: 2px;
+    background-color: #2a3132;
+    position: absolute;
+    margin-left: 125px;
+    margin-top:-120px;
+}
+
+
+.processDescription {
+   
+	min-width: 1050px; /* FIX THIS -- width is connected to parent width */
+    margin-top: -120px;
+    margin-left: 150px;
+    color: #2a3132;
+    font-size: 20px;
+    line-height: 1.5em;
+    text-align:justify;
+    position: absolute;
+
+}
+

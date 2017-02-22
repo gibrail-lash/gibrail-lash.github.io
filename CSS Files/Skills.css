@@ -1,0 +1,149 @@
+.skills {
+    height: 100%;
+    background-color: #f1f1f2;
+    overflow-x: hidden;
+    padding-bottom: 60px;
+}
+
+.skillsBelt {
+	width: 200%;
+    position: relative;
+	transition: 1s;
+	right:100%;
+}
+
+.skillsWrap {
+    width: 50%;
+    float: left;
+
+}
+
+.skillsContainer {
+    margin: auto;
+    max-width: 1000px;
+}
+
+.skillsHead {
+    text-align: center;
+    text-transform: uppercase;
+    color: #763626;
+    font-size: 20px;
+    //font-weight: 900;
+    padding-top: 60px;
+}
+
+.skillsUnderline {
+    height: 2px;
+    width: 400px;
+    background-color: #763626;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.certificationsReturn {
+    cursor:pointer;
+    opacity: 0.5;
+    width: 50px;
+	position: absolute;
+	right: 50%;
+
+}
+
+.certificationsReturn:hover {
+    opacity: 1;
+}
+
+
+.skillIcons {
+  //  cursor:pointer;
+  //  opacity: 0.5;
+	width: 25%;
+	position: relative;
+	margin-bottom: 100px;
+	margin-left: 6%;	
+}
+
+//.skillIcons:hover {
+    opacity: 1;
+}
+ 
+
+
+/* CERTIFICATIONS */
+
+
+.certificationsWrap {
+    width:50%;
+    float: left;
+}
+
+.certificationsContainer{
+	margin: auto;
+	max-width: 1000px;
+}
+
+.certificatesHead {
+    text-align: center;
+    text-transform: uppercase;
+    color: #763626;
+    font-size: 20px;
+    //font-weight: 900;
+    padding-top: 60px;
+}
+
+.certificatesUnderline {
+    height: 2px;
+    width: 400px;
+    background-color: #763626;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skillsReturn {
+    cursor:pointer;
+    opacity: 0.5;
+    width: 50px;
+    position: absolute;
+}
+
+.skillsReturn:hover {
+    opacity: 1;
+}
+
+.certificationsIconsContainer {
+	width: 300px;
+	margin-bottom: 80px;
+	position: relative;
+}
+
+
+.certificationsIcons {
+   // cursor:pointer;
+   // opacity: 0.5;
+	margin-bottom: 50px;
+	position: absolute;
+}
+
+//.certificationsIcons:hover {
+    opacity: 1;  
+}
+
+.certificationsDescription {
+	margin-left: 350px;
+	line-height: 2em;
+	width: 660px;
+	list-style: none;
+	text-overflow: ellipsis;
+	color: #2a3132;
+}
+
+//li {
+	margin-bottom: 10px;
+}
+
+

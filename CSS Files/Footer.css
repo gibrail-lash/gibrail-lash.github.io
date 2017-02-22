@@ -1,0 +1,22 @@
+footer {  
+    height: 150px;
+    background-image: url("Webpage Imgs/28H.jpg");
+    background-size: cover;
+    height: 100px;
+}
+
+
+#fnav {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.footerNav {
+	text-decoration: none;
+	margin-left: 10px;
+	color: #763626;
+    font-size: 14px;
+	font-weight: 900;
+	
+}
