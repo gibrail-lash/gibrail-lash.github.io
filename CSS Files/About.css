@@ -51,7 +51,7 @@
 }
 
 #aboutBrief {
-	width: 620px;
+	width: 680px;
     font-size: 24px;
     text-align: center;
     margin: auto;
@@ -85,10 +85,11 @@
 .about2Container {
 	margin: auto;
 	max-width: 1000px;
+	display: none;
 }
 
 .about2Paragraph {
-	width: 620px;
+	width: 680px;
     font-size: 24px;
     text-align: center;
     margin: auto;
