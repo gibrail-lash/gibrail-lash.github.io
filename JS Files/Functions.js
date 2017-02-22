@@ -3,10 +3,10 @@ $(document).ready(function(){
 
 
 $(function(){
-    smoothScroll();
-    aboutBelt();
+	smoothScroll();
+	aboutBelt();
 	skillsBelt();
-    workBelt();
+	workBelt();
 });
 
 
@@ -67,11 +67,11 @@ function workBelt(){
     $('.thumbUnit').click(function(event){
 		event.preventDefault();
         $('.workBelt').css('right', '100%');
-        $('.workContainer').show(800);
+        $('.workContainer').show();
     }); 
         $('.thumbReturn').click(function(event){
 			event.preventDefault();
             $('.workBelt').css('right', '0%');
-            $('.workContainer').hide(800);
+            $('.workContainer').hide();
     });   
 }
