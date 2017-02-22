@@ -1,6 +1,6 @@
 .about {
-    height: 100%;
-    background: white;
+	height: 100%;
+	background: white;
 	overflow-x: hidden;
 }
 
@@ -8,7 +8,7 @@
 	width: 200%;
 	position: relative;
 	transition: 1s;
-	right: 100%;
+	//right: 100%;
 }
 
 .aboutWrap {
@@ -32,9 +32,9 @@
 
 #profilePic {
 	background-image: url("../Webpage Imgs/Display Pic 2.jpg");
-    width: 250px;
-    height: 250px;
-    border-radius: 125px;
+	width: 250px;
+	height: 250px;
+	border-radius: 125px;
 	margin: auto;
 	background-size: cover;
 
