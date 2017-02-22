@@ -1,15 +1,15 @@
 .skills {
-    height: 100%;
-    background-color: #f1f1f2;
-    overflow-x: hidden;
-    padding-bottom: 60px;
+	height: 100%;
+	background-color: #f1f1f2;
+	overflow-x: hidden;
+	padding-bottom: 60px;
 }
 
 .skillsBelt {
 	width: 200%;
-    position: relative;
+	position: relative;
 	transition: 1s;
-	right:100%;
+	//right:100%;
 }
 
 .skillsWrap {
@@ -44,9 +44,9 @@
 }
 
 .certificationsReturn {
-    cursor:pointer;
-    opacity: 0.5;
-    width: 50px;
+	cursor:pointer;
+	opacity: 0.5;
+	width: 50px;
 	position: absolute;
 	right: 50%;
 
@@ -58,8 +58,8 @@
 
 
 .skillIcons {
-  //  cursor:pointer;
-  //  opacity: 0.5;
+	//  cursor:pointer;
+	//  opacity: 0.5;
 	width: 25%;
 	position: relative;
 	margin-bottom: 100px;
@@ -123,8 +123,8 @@
 
 
 .certificationsIcons {
-   // cursor:pointer;
-   // opacity: 0.5;
+	// cursor:pointer;
+	// opacity: 0.5;
 	margin-bottom: 50px;
 	position: absolute;
 }
