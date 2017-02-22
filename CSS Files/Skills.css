@@ -29,7 +29,7 @@
 
 .skillsUnit {
 	width: 300px;
-	height: 160px;
+	height: 200px;
 	float: right;
 	position: relative;
 }
@@ -120,7 +120,7 @@ span::after {
 .certificationsContainer{
 	margin: auto;
 	max-width: 800px;
-	display: block;
+	display: none;
  
 }
 
