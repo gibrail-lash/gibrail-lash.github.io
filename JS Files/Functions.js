@@ -44,15 +44,15 @@ function aboutBelt(){
 
 function skillsBelt(){
     $('.certificationsReturn').click(function(){
-        $('.skillsBelt').css('right', '0%');
-        $('.skillsContainer').hide();
-		$('.certificationsReturn').hide();
+        $('.skillsBelt').css('right', '100%');
+        $('.certificationssContainer').show();
+	$('.certificationsReturn').hide();
 
     }); 
     $('.skillsReturn').click(function(){
         $('.skillsBelt').css('right', '0%');
-        $('.skillsContainer').show();
-		$('.certificationsReturn').show();
+        $('.certificationsContainer').hide();
+	$('.certificationsReturn').show();
     });
 }
 
