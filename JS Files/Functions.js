@@ -32,6 +32,8 @@ function aboutBelt(){
         $('.aboutBelt').css('right', '100%');
         $('.about2Container').show();
 	$('.about2Return').hide();
+    	$('.aboutReturn').show();
+	    
 	    
     }); 
 	
@@ -39,6 +41,8 @@ function aboutBelt(){
         $('.aboutBelt').css('right', '0%');
         $('.about2Container').hide();
 	$('.about2Return').show();
+    	$('.aboutReturn').hide();
+	    
     });
 }
 
@@ -50,12 +54,14 @@ function skillsBelt(){
         $('.skillsBelt').css('right', '100%');
         $('.certificationsContainer').show();
 	$('.certificationsReturn').hide();
+    	$('.skillsReturn').show();
 
     }); 
     $('.skillsReturn').click(function(){
         $('.skillsBelt').css('right', '0%');
         $('.certificationsContainer').hide();
 	$('.certificationsReturn').show();
+    	$('.skillsReturn').hide();
     });
 }
 
