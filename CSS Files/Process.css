@@ -1,12 +1,11 @@
 .process {
     height: auto;
     background: white;
-    overflow-x: hidden;
+    overflow-x: scroll;
     padding-bottom: 60px;
 }
 
 #iconContainer {
-    overflow: hidden;
 	padding-bottom: 60px; /* FIX THIS */
     max-width:1200px;
     margin:auto;
