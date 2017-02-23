@@ -51,7 +51,8 @@
     background-image: url("../Webpage Imgs/28H.jpg");
     background-size: cover;
     background-position: center;
-    opacity:1;  
+    opacity:1;
+	text-decoration: none;
 }
 
 .thumbOverlay {
