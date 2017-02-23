@@ -1,7 +1,7 @@
 .process {
     height: auto;
     background: white;
-    overflow-x: visible;
+    overflow-x: scroll;
     padding-bottom: 60px;
 }
 
