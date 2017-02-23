@@ -38,7 +38,7 @@
     border-radius: 50px;
     margin: auto 0;
     position: relative;
-	padding-left: 
+	padding-left: 20px; 
 }
 
 #processName {
@@ -67,6 +67,7 @@
     line-height: 1.5em;
     text-align:justify;
     position: absolute;
+	padding-right: 20px;
 
 }
 
