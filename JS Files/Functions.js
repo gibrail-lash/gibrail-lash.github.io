@@ -85,16 +85,21 @@ function workBelt(){
             $('.workContainer').hide();
     });   
 }
+
 function workLoad() {
 
 //$.ajaxSetup({ cache: false });
 	
-	$('.thumbUnit').click(function(event){
-		event.preventDefault();
-
-		var newHTML = 'Project1.html';
-
-		$('.projectLoad').load(newHTML)
+$('.thumbUnit').click(function(){
 	
-	})
+	var $this = $(this),
+		newFolder = $this.data('folder'),
+		newTitle = $this.find('strong1').text(),	
+		newHTML = '/Projects/' + newFolder + '.html';
+	
+	$('.projectLoad').load(newHTML);
+	$('.projectTitle').text(newTitle);
+	
+});
+
 }
