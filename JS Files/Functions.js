@@ -7,6 +7,7 @@ $(function(){
 	aboutBelt();
 	skillsBelt();
 	workBelt();
+	workLoad();
 });
 
 
@@ -83,4 +84,17 @@ function workBelt(){
             $('.workBelt').css('right', '0%');
             $('.workContainer').hide();
     });   
+}
+function workload() {
+
+//$.ajaxSetup({ cache: false });
+	
+	$('.thumbUnit').click(function(event){
+		event.preventDefault();
+
+		var newHTML = 'Project1.html';
+
+		$('.projectLoad').load(newHTML)
+	
+	})
 }
