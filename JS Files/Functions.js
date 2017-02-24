@@ -88,7 +88,7 @@ function workBelt(){
 
 function workLoad() {
 
-//$.ajaxSetup({ cache: false });
+$.ajaxSetup({ cache: false });
 	
 $('.thumbUnit').click(function(){
 	
