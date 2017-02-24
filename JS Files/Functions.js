@@ -85,7 +85,7 @@ function workBelt(){
             $('.workContainer').hide();
     });   
 }
-function workload() {
+function workLoad() {
 
 //$.ajaxSetup({ cache: false });
 	
