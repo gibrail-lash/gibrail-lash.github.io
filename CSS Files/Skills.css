@@ -30,7 +30,7 @@
 .skillsUnit {
 	width: 300px;
 	height: 200px;
-	float: left;
+	float: right;
 	position: relative;
 }
 
@@ -114,8 +114,8 @@ span::after {
     cursor:pointer;
     opacity: 0.5;
     width: 50px;
-	position: absolute;
-	right: 50%;
+	float: right;
+	margin-top: 30px;
 }
 
 .certificationsReturn:hover {
@@ -177,7 +177,8 @@ span::after {
     cursor:pointer;
     opacity: 0.5;
     width: 50px;
-    position: absolute;
+	float: left;
+	margin-top: 25px;
 }
 
 .skillsReturn:hover {
