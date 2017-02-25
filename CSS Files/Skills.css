@@ -114,7 +114,8 @@ span::after {
     cursor:pointer;
     opacity: 0.5;
     width: 50px;
-	float: right;
+position: absolute;
+	right: 50%;
 	margin-top: 30px;
 }
 
@@ -177,7 +178,7 @@ span::after {
     cursor:pointer;
     opacity: 0.5;
     width: 50px;
-	float: left;
+position: absolute;
 	margin-top: 25px;
 }
 
@@ -197,7 +198,6 @@ span::after {
    // opacity: 0.5;
 	margin-bottom: 50px;
 	position: absolute;
-	width: 
 }
 
 //.certificationsIcons:hover {
