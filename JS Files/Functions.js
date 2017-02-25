@@ -3,7 +3,7 @@ $(document).ready(function(){
 
 
 $(function(){
-	smoothScroll();
+	smoothScroll(800);
 	aboutBelt();
 	skillsBelt();
 	workBelt();
