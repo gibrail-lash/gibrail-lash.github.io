@@ -68,6 +68,9 @@
     text-align:justify;
     position: absolute;
 	padding-right: 20px;
-
+	text-overflow: ellipsis;
+	overflow: hidden;
 }
 
+
+}
