@@ -188,15 +188,18 @@ position: absolute;
 
 .certificationsIconsContainer {
 	width: 300px;
-	margin-bottom: 80px;
+	height: 200px;
 	position: relative;
+	float: left;
+	padding-right: 200px;
+	align-items: center;
+	display: flex;
 }
 
 
 .certificationsIcons {
    // cursor:pointer;
    // opacity: 0.5;
-	margin-bottom: 50px;
 	position: absolute;
 }
 
@@ -209,10 +212,10 @@ position: absolute;
 	line-height: 2em;
 	width: 500px;
 	list-style: none;
-	text-overflow: ellipsis;
+	//text-overflow: ellipsis;
 	color: #2a3132;
 	display: block;
-	overflow: hidden;
+	//overflow: hidden;
 }
 
 //li {
