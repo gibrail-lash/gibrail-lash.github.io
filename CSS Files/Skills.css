@@ -208,7 +208,7 @@ position: absolute;
 }
 
 .certificationsDescription {
-	margin-left: 350px;
+	margin: auto 350px;
 	line-height: 2em;
 	width: 500px;
 	list-style: none;
