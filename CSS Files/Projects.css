@@ -48,11 +48,16 @@
     margin-left: 0;
     width:25%;
     position: relative;
-    background-image: url("../Webpage Imgs/28H.jpg");
-    background-size: cover;
-    background-position: center;
     opacity:1;
-	text-decoration: none;
+
+}
+
+.thumb {
+	position: absolute;
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	width: 100%;
 }
 
 .thumbOverlay {
