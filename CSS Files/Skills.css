@@ -212,10 +212,11 @@ position: absolute;
 	line-height: 2em;
 	width: 500px;
 	list-style: none;
-	//text-overflow: ellipsis;
+	text-overflow: ellipsis;
 	color: #2a3132;
 	display: block;
-	//overflow: hidden;
+	position: absolute;
+	overflow: hidden;
 }
 
 //li {
