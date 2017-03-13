@@ -191,7 +191,7 @@ position: absolute;
 	height: 180px;
 	position: relative;
 	float: left;
-	//padding-right: 101px;
+	padding-right: 101px;
 	align-items: center;
 	display: flex;
 }
