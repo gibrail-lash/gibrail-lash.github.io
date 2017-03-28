@@ -48,31 +48,36 @@
     margin-left: 0;
     width:25%;
     position: relative;
-    opacity:1;
-
+	overflow:hidden;
 }
 
 .thumb {
 	position: absolute;
 	background-size: cover;
-	background-position: center;
+    background-position:center;
 	height: 100%;
 	width: 100%;
 }
 
 .thumbOverlay {
     height: 100%;
-    background-color: #763626;
-    opacity: 0;
+	top:110%;
+    background-color: #ebeff2;
+   	opacity: 1;
     text-align: center;
     transition: 0.5s;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	position: relative;
+	transition-duration: 250ms;
 }
 
-.thumbOverlay:hover {
-    opacity: 0.8;
+.thumbUnit:hover .thumbOverlay {
+	top: 0%;
+	animation-iteration-count: infinite;
+	animation-duration: 1.5s;
+	opacity: 0.9;
 }
 
 strong1 {
