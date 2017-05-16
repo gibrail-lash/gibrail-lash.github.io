@@ -31,7 +31,8 @@
 }
 
 #profilePic {
-	background-image: url("../Webpage Imgs/Profile Pic.JPG");
+	background-image: url("../Webpage Imgs/Profile Pic.jpeg");
+	background-position: right;
 	width: 250px;
 	height: 250px;
 	border-radius: 125px;
