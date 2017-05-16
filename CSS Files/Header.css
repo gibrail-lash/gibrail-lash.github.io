@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    height: 450px;
+    height: 100%;
     background-image: url("../Webpage Imgs/28H.jpg");
     background-size: cover;
     font-family: sans-serif /* subject to change */
@@ -56,4 +56,12 @@ span1 {
 h2 {
     text-align: center;
     color: #2a3132;
+    font-size: 28px;
+}
+
+#logo {
+	width: 100px;
+	display: block;
+	margin: auto;
+	padding-bottom: 40px;
 }
