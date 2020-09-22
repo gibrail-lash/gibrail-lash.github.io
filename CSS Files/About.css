@@ -1,133 +1,61 @@
 #about {
 	height: 100%;
-	background: white;
-	overflow-x: hidden;
-}
-
-.aboutBelt {
-	width: 200%;
-	position: relative;
-	transition: 1s;
-	//right: 100%;
-}
-
-.aboutWrap {
-	width: 50%;
-	float:left;
+    padding-bottom: 40px;
 }
 
 .aboutContainer {
 	margin:auto;
-	max-width: 1000px;
-}
-
-.aboutHead {
-    text-align: center;
-    text-transform: uppercase;
-    color: #763626;
-    font-size: 20px;
-    //font-weight: 900;
-    padding-top: 60px;
 }
 
 #profilePic {
-	background-image: url("../Webpage Imgs/Profile Pic.jpeg");
-	background-position: right;
-	width: 250px;
-	height: 250px;
-	border-radius: 125px;
-	margin: auto;
-	background-size: cover;
-
+    vertical-align: top;
+	display: inline-block;
+	width: 40%;
+    margin-top: 5%;
+    margin-left: 5%
 }
 
-.aboutUnderline {
-    height: 2px;
-    width: 400px;
-    background-color: #763626;
-    margin-top: 30px;
-    margin-bottom: 40px;
-    margin-left: auto;
-    margin-right: auto;
+.fadein { position:relative;}
+.fadein > * { position:absolute; left:0; top:0; display:block; }
+
+
+.headandblurb {
+    vertical-align: top;
+    display: inline-block;
+    width: 42.5%;
+    padding-left: 6%;
+}
+
+#abouthead{
+    font-size: 2em;
+    color: #2a3132;
+}
+
+#aboutblurb{
+    font-size: 1.5vw;
+    text-align: justify;
 }
 
 #aboutBrief {
-	width: 680px;
-    font-size: 24px;
-    text-align: center;
-    margin: auto;
+    //font-size: 0.9em;
     line-height: 1.6em;
     color: #2a3132;
-    padding-bottom: 60px;
-	padding-top: 40px;
-}
-
-.about2Return {
-    cursor:pointer;
-    opacity: 0.5;
-    width: 50px;
-	position: absolute;
-	right: 50%;
-	margin-top: 2%;
-}
-
-.about2Return:hover {
-    opacity: 1;
-}
-
-
-/* NEXT SECTION */
-
-.about2Wrap {
-	width: 50%;
-	float: left;
-}
-
-.about2Container {
-	margin: auto;
-	max-width: 1000px;
-	display: none;
-}
-
-.about2Paragraph {
-	width: 680px;
-    font-size: 24px;
-    text-align: center;
-    margin: auto;
-    line-height: 1.6em;
-    color: #2a3132;
-    padding-bottom: 60px;
-
 }
 
 #resume {
-	width: 200px;
-    font-size: 20px;
+	width: 300px;
+    font-size: 1.5vw;
     text-align: center;
     margin: auto;
-    line-height: 1.5em;
     color: #2a3132;
-	//opacity: 0.6;
-    padding-bottom: 60px;
-	padding-top: 40px;
+	opacity: 1;
+    padding-bottom: 30px;
+	padding-top: 30px;
 	text-decoration: none;
 	display: block;
 	font-weight: bolder;
 }
 
 #resume:hover{
-//	opacity:1;
-	color: #763626;	
+	color: silver;	
 	}
-
-.aboutReturn {
-    cursor:pointer;
-    opacity: 0.5;
-    width: 50px;
-	position: absolute;
-	margin-top: 2%
-}
-
-.aboutReturn:hover {
-    opacity: 1;
-}
