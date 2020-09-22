@@ -1,6 +1,5 @@
 #projects {
     height: 100%;
-    background: #ebeff2;
     overflow-x: hidden;
     padding-bottom: 60px
 }
@@ -18,76 +17,120 @@
 
 .thumbContainer {
     margin: auto;
-    max-width: 1000px;
-}
-
-.projectsHead {
-    text-align: center;
-    text-transform: uppercase;
-    color: #763626;
-    font-size: 20px;
-    //font-weight: 900;
-    padding-top: 60px;
-    position: relative;
+    max-width: 1300px;
 }
 
 .projectsUnderline {
     height: 2px;
-    width: 400px;
-    background-color: #763626;
-    margin-top: 30px;
-    margin-bottom: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative
+    background-color: lightgray;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.projectsHead {
+    color: #2a3132;
+    font-size: 2em;
+    padding-top: 30px;
+    margin-left: 5%;
+    padding-bottom: 5%;
 }
 
 .thumbUnit {
-    height: 150px;
+    height: 400px;
+    width: 300px;
     float:left;
-    margin-left: 0;
-    width:25%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 6%;
     position: relative;
-	overflow:hidden;
+	overflow: hidden;
 }
 
 .thumb {
-	position: absolute;
-	background-size: cover;
-    background-position:center;
-	height: 100%;
+    position: absolute;
+	height: 75%;
 	width: 100%;
 }
 
-.thumbOverlay {
+#thumbPic1{
+    background-image:url(/Projects/Project1/Project1Thumb.png);
+    background-size:cover;
+    background-position:center;
     height: 100%;
-	top:100%;
-    background-color: #ebeff2;
-   	opacity: 1;
-    text-align: center;
-    transition: 0.5s;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	position: relative;
-	transition-duration: 250ms;
 }
 
-.thumbUnit:hover .thumbOverlay {
-	top: 0%;
-	animation-iteration-count: infinite;
-	animation-duration: 1.5s;
-	opacity: 0.9;
+#thumbPic2{
+    background-image:url(/Projects/Project2/Project2Thumb.png);
+    background-size:cover;
+    background-position:center;
+    height: 100%;
 }
 
-strong1 {
-	display: block;
-    padding: 20px 20px 10px;
-    color: #763626;
-    //font-weight: 300;
+
+#thumbPic3{
+    background-image:url(/Projects/underConstruction.png);
+    background-size:cover;
+    background-position:center;
+    height: 100%;
+}
+
+#thumbPic4{
+    background-image:url(/Projects/underConstruction.png);
+    background-size:cover;
+    background-position:center;
+    height: 100%;
+}
+
+#thumbPic5{
+    background-image:url(/Projects/underConstruction.png);
+    background-size:cover;
+    background-position:center;
+    height: 100%;
+}
+
+#thumbPic6{
+    background-image:url(/Projects/underConstruction.png);
+    background-size:cover;
+    background-position:center;
+    height: 100%;
+}
+
+#thumbPic7{
+    background-image:url(/Projects/underConstruction.png);
+    background-size:cover;
+    background-position:center;
+    height: 100%;
+}
+
+#thumbPic8{
+    background-image:url(/Projects/underConstruction.png);
+    background-size:cover;
+    background-position:center;
+    height: 100%;
+}
+
+#thumbPic9{
+    background-image:url(/Projects/underConstruction.png);
+    background-size:cover;
+    background-position:center;
+    height: 100%;
+}
+
+
+.thumbUnit:hover {
+	opacity: 0.75;
+}
+
+
+#projectTitle {
+    position: absolute;
+    color: #2a3132;
+    font-weight: 300;
     text-transform: uppercase;
-    font-size: 24px;
-    line-height: 1.2;
+    font-size: 14px;
+    top: 75%;
+    margin-left: 2%;
+    margin-right: 2%;  
 }
 
 
@@ -95,7 +138,7 @@ strong1 {
 
 .workWrap {
     width: 50%;
-    float: left;
+    float: right;
 }
 
 .workContainer {
@@ -118,12 +161,14 @@ h4 {
 
 .thumbReturn {
     cursor:pointer;
-    opacity: 0.5;
+    opacity: 1;
 	position: absolute;
-    width: 25px;
-	margin-top: -12px;
+    width: 20px;
+	margin-left: -10%;
+    top: 200px
+    
 }
 
 .thumbReturn:hover {
-    opacity: 1;
+    opacity: 0.5;
 }
