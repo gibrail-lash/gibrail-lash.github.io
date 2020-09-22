@@ -1,46 +1,82 @@
 #skills {
     height: 100%;
-    background-color: #ebeff2;
-    overflow-x: hidden;
-    padding-bottom: 60px;
-}
-
-.skillsBelt {
-	width: 200%;
-    position: relative;
-	transition: 1s;
-	//right:100%;
-}
-
-.skillsWrap {
-    width: 50%;
-    float: left;
+    padding-bottom: 40px;
 }
 
 .skillsContainer {
     margin: auto;
-    max-width: 1200px;
+    max-width: 1400px;
 }
+
+.skillsUnderline {
+    height: 1px;
+    background-color: lightgray;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.skillsHead {
+    //text-transform: uppercase;
+    color: #2a3132;
+    font-size: 2em;
+    //font-weight: 900;
+    padding-top: 30px;
+    margin-left: 5%;
+    //padding-bottom: 10px;
+}
+
+
+#software {
+    font-size: 1.5em;
+  / width: 100%;
+    text-align: center;
+    margin-top: 7.5%;
+    margin-bottom: 5%;
+    text-decoration: underline;
+}
+
+
+
 
 .skillsLockup {
-	max-width: 900px;
-	margin: auto;
+	width: 49%;
+    display: inline-block; 
+    vertical-align: top;
 }
+
+.certsLockup {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+}
+
 
 .skillsUnit {
-	width: 300px;
-	height: 200px;
-	float: left;
-	position: relative;
-
+	width: 30%;
+    margin-left: 12%;
+    margin-right: 2%;
+    padding-bottom: 10%;
+	//float: left;
+    display: inline-block
 }
 
-.skillsBar {
-	display: inline-block;
-	margin-left: 50px;
-	top: 120px;
-	position: absolute;
+.certsUnit {
+	width: 30%;
+    margin-left: 12%;
+    margin-right: 2%;
+    padding-bottom: 10%;
+    display: inline-block;
+}
 
+
+
+
+.skillsBar {
+    display: block;
+	margin-left: 5%;
+	top: 40%;
+    margin-top: 10%;
 }
 
 span {
@@ -50,17 +86,6 @@ span {
 	background-color: #2a3132;
 	border-radius: 50%;
 	margin-right: 5px 
-}
-
-span::after {
-	content: "";
-	display: inline-block;
-	width: 11px;
-	height: 11px;
-	background: white;
-	border-radius: 50%;
-	margin-left: 2px;
-	margin-bottom: 1px	
 }
 
 
@@ -91,143 +116,3 @@ span::after {
 .skill9 span:nth-child(n+10){
 	background: #ccc;
 }
-
-
-.skillsHead {
-    text-align: center;
-    text-transform: uppercase;
-    color: #763626;
-    font-size: 20px;
-    //font-weight: 900;
-    padding-top: 60px;
-}
-
-.skillsUnderline {
-    height: 2px;
-    width: 400px;
-    background-color: #763626;
-    margin-top: 30px;
-    margin-bottom: 40px;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-.certificationsReturn {
-    cursor:pointer;
-    opacity: 0.5;
-    width: 50px;
-	position: absolute;
-	right: 50%;
-	margin-top: 25px
-
-}
-
-.certificationsReturn:hover {
-    opacity: 1;
-}
-
-
-.skillIcons {
-  //  cursor:pointer;
-  //  opacity: 0.5;
-  //  width: 25%;
-	position: relative;
-	//margin-bottom: 30px;
-	margin-left: 20px;
-	margin-right: 20px;
-
-}
-
-//.skillIcons:hover {
-    opacity: 1;
-}
- 
-
-
-/*-------- CERTIFICATIONS ---------*/
-
-
-.certificationsWrap {
-    width:50%;
-    float: left;
-}
-
-.certificationsContainer{
-	margin: auto;
-	max-width: 800px;
-	display: none;
- 
-}
-
-.certificatesHead {
-    text-align: center;
-    text-transform: uppercase;
-    color: #763626;
-    font-size: 20px;
-    //font-weight: 900;
-    padding-top: 60px;
-}
-
-.certificatesUnderline {
-    height: 2px;
-    width: 400px;
-    background-color: #763626;
-    margin-top: 30px;
-    margin-bottom: 40px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-.certificationsIconsContainer {
-	width: 300px;
-	height: 160px;
-	position: relative;
-	float: left;
-	padding-right: 101px;
-	align-items: center;
-	display: flex;
-	
-}
-
-
-.certificationsIcons {
-   // cursor:pointer;
-   // opacity: 0.5;
-	position: absolute;
-}
-
-//.certificationsIcons:hover {
-    opacity: 1;  
-}
-
-.certificationsDescription {
-	margin: auto 350px;
-	line-height: 2em;
-	width: 500px;
-	list-style: none;
-	color: #2a3132;
-	display: block;
-	position: absolute;
-
-}
-
-//li {
-	margin-bottom: 10px;
-}
-
-.skillsReturn {
-    cursor:pointer;
-    opacity: 0.5;
-    width: 50px;
-//	float: left;
-position: absolute;
-	margin-top: 25px;
-}
-
-.skillsReturn:hover {
-    opacity: 1;
-}
-
-
